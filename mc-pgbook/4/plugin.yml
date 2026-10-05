@@ -1,8 +1,0 @@
-name: Sample4
-version: '${version}'
-
-main: net.futurecoders.sample4.Sample4
-api-version: '1.21.11'
-load: POSTWORLD
-commands:
-  mv:
