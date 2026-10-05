@@ -1,0 +1,20 @@
+name: Sample10
+version: '${version}'
+
+main: net.futurecoders.sample10.Sample10
+api-version: '1.21.11'
+load: POSTWORLD
+
+commands:
+  respawnspot:
+    description: ランダムリスポーン地点を管理します。
+    usage: /respawnspot <add> [ID]
+    permission: randomrespawn.admin
+    permission-message: あなたにはこのコマンドを実行する権限がありません。
+
+
+permissions:
+  randomrespawn.admin:
+    description: リスポーン地点管理コマンドの実行を許可します。
+    default: op
+

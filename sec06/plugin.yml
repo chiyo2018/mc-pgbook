@@ -1,0 +1,11 @@
+name: Sample6
+version: '${version}'
+
+
+main: net.futurecoders.sample6.Sample6
+api-version: '1.21.11'
+load: POSTWORLD
+
+
+commands:
+  custompotion:
